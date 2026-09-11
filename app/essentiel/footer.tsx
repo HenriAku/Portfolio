@@ -26,7 +26,6 @@ export const Footer = () => {
 					<ul>
 						<li>Réseaux :</li>
 						<li className="hover:text-fuchsia-200"><Link href="https://github.com/HenriAku" target="_blank" rel="noopener noreferrer">&times; GitHub</Link></li>
-						<li className="hover:text-fuchsia-200"><Link href="https://portfoliohenri.onrender.com/" target="_blank" rel="noopener noreferrer">&times; Portfolio</Link></li>
 					</ul>
 				</div>
 			</div>
