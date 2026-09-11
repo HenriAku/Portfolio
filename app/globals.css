@@ -49,3 +49,9 @@ body {
 	background-color: #3C95C0;
 }
 
+.navbar.scrolling {
+	background-color: #ffffff; /* Devient blanche */
+	padding: 10px 50px; /* Réduit sa hauteur */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+}
+
