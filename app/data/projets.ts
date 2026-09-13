@@ -36,7 +36,7 @@ export const Projets: Project[] = [
 		imagePrincipale: "/images/projet2/Home.png",
 		images: ["/images/projet2/Panier.png", "/images/projet2/Produit.png"],
 		contenuComplet: "Ce projet consistait à créer un site web pour une entreprise spécialisée dans les produits artisanaux. Le site devait présenter les différents produits, raconter l'histoire de l'entreprise et permettre aux utilisateurs de passer des commandes en ligne. L'objectif était de créer une expérience utilisateur agréable et de mettre en valeur la qualité et l'authenticité des produits proposés.",
-		lien: "https://dev-kit-web.netlify.app/",
+		lien: "",
 		Contexte: "Le projet a été réalisé dans le cadre d'une collaboration avec l'entreprise La roch', qui souhaitait moderniser sa présence en ligne et offrir une plateforme de vente en ligne à ses clients. Le site devait refléter l'identité de l'entreprise et faciliter la navigation pour les utilisateurs."
 	},
 	{
@@ -60,7 +60,7 @@ export const Projets: Project[] = [
 		duree: "7 jours",
 		techno: ["JavaScript", "HTML", "CSS"],
 		imagePrincipale: "/images/projet4/accueil.png",
-		images: ["/images/projet4/timer.png", "/images/projet4/contact.png"],
+		images: ["/images/projet4/timer.png", "/images/projet4/actu.png"],
 		contenuComplet: "Ce projet consistait à créer un site web pour promouvoir et permettre le téléchargement d'un jeu de devinette appelé InazumaDle. Le site devait présenter les différentes fonctionnalités du jeu, fournir des instructions sur la façon de jouer et offrir un lien de téléchargement pour les utilisateurs intéressés. L'objectif était de créer une expérience utilisateur engageante et de susciter l'intérêt pour le jeu.",
 		lien: "https://inazumadle-web.netlify.app/",
 		Contexte: "Le projet a été réalisé dans le cadre d'un défi de développement web visant à créer un site web fonctionnel pour un jeu en ligne. L'objectif était de démontrer la capacité à concevoir et développer rapidement une interface utilisateur attrayante et informative, tout en mettant en avant les fonctionnalités du jeu et en facilitant le téléchargement pour les utilisateurs."
