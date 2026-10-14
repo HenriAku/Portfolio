@@ -47,12 +47,12 @@ export const metadata: Metadata = {
 		locale: "fr_FR",
 		url: "https://portfolio-henri-dev.netlify.app",
 		siteName: "Portfolio Henri",
-		title: 'Portfolio Henri | Développeur Web',
+		title: "Portfolio Henri | Développeur Web",
 		description:
 			"Portfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
 		images: [
 			{
-				url: "https://netlify.app", // <--- METTEZ VOTRE IMAGE ICI
+				url: "https://netlify.app", 
 				width: 1200,
 				height: 630,
 				alt: "Aperçu du Portfolio de Henri",
@@ -65,14 +65,13 @@ export const metadata: Metadata = {
 		title: "Portfolio Henri | Portfolio développeur web",
 		description:
 			"Portfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
-		images: ["https://netlify.app"], // <--- ET ICI
+		images: ["https://netlify.app"],
 	},
 
 	alternates: {
 		canonical: "https://portfolio-henri-dev.netlify.app",
 	},
 };
-
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
 	return (
@@ -81,9 +80,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
 		>
 			<body className="min-h-full flex flex-col">
-				<ContenaireProvider>
-					{children}
-				</ContenaireProvider>
+				<ContenaireProvider>{children}</ContenaireProvider>
 			</body>
 		</html>
 	);
