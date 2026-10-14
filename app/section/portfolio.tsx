@@ -5,7 +5,7 @@ export const Portfolio = () => {
 	return (
 		<div id="portfolio" className="flex flex-col items-center justify-center bg-white p-15">
 			<Titre texte="Mon Portfolio" endroit="bleu" />
-			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center gap-10 p-5">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-10 p-5">
 				<Card
 					titre="Landing Page"
 					description="Landing page DevKit entrainement."
