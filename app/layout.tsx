@@ -52,7 +52,7 @@ export const metadata: Metadata = {
 			"Portfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
 		images: [
 			{
-				url: "https://netlify.app", 
+				url: "https://portfolio-henri-dev.netlify.app", 
 				width: 1200,
 				height: 630,
 				alt: "Aperçu du Portfolio de Henri",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
 		title: "Portfolio Henri | Portfolio développeur web",
 		description:
 			"Portfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
-		images: ["https://netlify.app"],
+		images: ["https://portfolio-henri-dev.netlify.app"],
 	},
 
 	alternates: {
