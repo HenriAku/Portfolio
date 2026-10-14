@@ -15,17 +15,17 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: {
-		default: "Protfolio Henri",
-		template: "%s | Protfolio Henri",
+		default: "Portfolio Henri",
+		template: "%s | Portfolio Henri",
 	},
 	description:
-		"Protfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
+		"Portfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
 	keywords: [
-		"Protfolio Henri",
-		"Protfolio web",
-		"Protfolio développeur web",
-		"Protfolio personnel",
-		"Protfolio en ligne",
+		"Portfolio Henri",
+		"Portfolio web",
+		"Portfolio développeur web",
+		"Portfolio personnel",
+		"Portfolio en ligne",
 		"REACT",
 		"NEXTJS",
 		"TAILWINDCSS",
@@ -45,33 +45,34 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "fr_FR",
-		url: "https://Portfolio-Henri.netlify.app",
-		siteName: "Protfolio Henri",
-		title: "Protfolio Henri | Protfolio développeur web",
+		url: "https://portfolio-henri-dev.netlify.app",
+		siteName: "Portfolio Henri",
+		title: 'Portfolio Henri | Développeur Web',
 		description:
-			"Protfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
+			"Portfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
 		images: [
 			{
-				url: "https://Portfolio-Henri.netlify.app",
+				url: "https://netlify.app", // <--- METTEZ VOTRE IMAGE ICI
 				width: 1200,
 				height: 630,
-				alt: "Protfolio Henri",
+				alt: "Aperçu du Portfolio de Henri",
 			},
 		],
 	},
 
 	twitter: {
 		card: "summary_large_image",
-		title: "Protfolio Henri | Protfolio développeur web",
+		title: "Portfolio Henri | Portfolio développeur web",
 		description:
-			"Protfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
-		images: ["https://Portfolio-Henri.netlify.app"],
+			"Portfolio Henri est un site web personnel qui présente les projets et les compétences de développement web de Henri.",
+		images: ["https://netlify.app"], // <--- ET ICI
 	},
 
 	alternates: {
-		canonical: "https://Portfolio-Henri.netlify.app",
+		canonical: "https://portfolio-henri-dev.netlify.app",
 	},
 };
+
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
 	return (
